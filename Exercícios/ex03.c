@@ -1,9 +1,9 @@
 /*
-3. Elabore uma função que verifica se um número é perfeito ou não. Número perfeito é um número natural
-cuja soma dos seus divisores próprios (excluído o próprio número) coincide com o número.
+3. Elabore uma funÃ§Ã£o que verifica se um nÃºmero Ã© perfeito ou nÃ£o. NÃºmero perfeito Ã© um nÃºmero natural
+cuja soma dos seus divisores prÃ³prios (excluÃ­do o prÃ³prio nÃºmero) coincide com o nÃºmero.
 
-Número 	   Divisores 	                           Soma dos divisores
-6 		   1, 2, 3                                 1 + 2 + 3 = 6
+NÃºmero 	   Divisores 	                           Soma dos divisores
+6 	   1, 2, 3                                 1 + 2 + 3 = 6
 28         1, 2, 4, 7, 14                          1 + 2 + 4 + 7 + 14 = 28
 496        1, 2, 4, 8, 16, 31, 62, 124, 248        1 + 2 + 4 + 8 + 16 + 31 + 62 + 124 + 248 = 496
 */
@@ -12,8 +12,8 @@ Número 	   Divisores 	                           Soma dos divisores
 #include <stdlib.h>
 #include <locale.h>
 
-// em C, 0 representa FALSO, qualquer outro número representa VERDADEIRO
-//Funão para verificar se o número é perfeito
+// em C, 0 representa FALSO, qualquer outro nÃºmero representa VERDADEIRO
+//FunÃ£o para verificar se o nÃºmero Ã© perfeito
 int perfeito(int n){
 	int cont, soma;
 	soma = 0;
@@ -34,19 +34,19 @@ int perfeito(int n){
 
 // algoritmo principal
 void main(){
-	setlocale(LC_ALL, "Portuguese");			// ajuste para o idioma português
+	setlocale(LC_ALL, "Portuguese");			// ajuste para o idioma portuguÃªs
 	
 	int n, result;
 	
-	printf("Informe um número: ");				// ESCREVA
+	printf("Informe um nÃºmero: ");				// ESCREVA
 	fflush(stdin);								// limpar o buffer do teclado
 	scanf("%d", &n);							// LEIA
 	
-	result = perfeito(n);						// chamada da função perfeito e armazenamento do resultado na variável result
+	result = perfeito(n);						// chamada da funÃ§Ã£o perfeito e armazenamento do resultado na variÃ¡vel result
 	
 	if(result == 1){							
-		printf("O número %d é perfeito.\n", n);
+		printf("O nÃºmero %d Ã© perfeito.\n", n);
 	} else {
-		printf("O número %d não é perfeito.\n", n);
+		printf("O nÃºmero %d nÃ£o Ã© perfeito.\n", n);
 	}
 }

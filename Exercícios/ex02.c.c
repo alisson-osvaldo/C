@@ -31,7 +31,7 @@ void baskara(int a, int b, int c){
 	}
 }
 
-// algoritmo principal
+//algoritmo principal
 void main(){
 	setlocale(LC_ALL, "Portuguese");// ajuste para o português
 	int a, b, c;

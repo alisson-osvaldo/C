@@ -1,5 +1,5 @@
 /*
-4. Elabore uma função que calcule o Máximo Divisor Comum entre dois números pelo Método de Euclides.
+4. Elabore uma funï¿½ï¿½o que calcule o Mï¿½ximo Divisor Comum entre dois nï¿½meros pelo Mï¿½todo de Euclides.
 30/21  ->  21/9   ->  9/3  ->  3/0
 9  1       3  2       0 3      - -
 */
@@ -26,22 +26,21 @@ void main(){
 	fflush(stdin);
 	scanf("%d", &n2);
 	
-	//divisão
+	//divisï¿½o
 	if(n2 == 0){
-		printf("Não é possivel dividir por zero");
+		printf("Nï¿½o ï¿½ possivel dividir por zero");
 	}
 	
 	do{
-	
+
 	divisao = n1 / n2;
-	printf("resultado da divisão: %d / %d : %d\n", n1, n2, divisao);
+	printf("resultado da divisï¿½o: %d / %d : %d\n", n1, n2, divisao);
 		
 	resto = n1 % n2;
-	printf("Resto da divisão: %d\n\n", resto);
+	printf("Resto da divisï¿½o: %d\n\n", resto);
 	
 	n1 = n2;
 	n2 = resto;
-	
-	 	
+		
 	}while(divisao != 0);	
 }

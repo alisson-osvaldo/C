@@ -1,5 +1,5 @@
 /*
-4. Elabore uma fun��o que calcule o M�ximo Divisor Comum entre dois n�meros pelo M�todo de Euclides.
+4. Elabore uma função que calcule o Máximo Divisor Comum entre dois números pelo Método de Euclides.
 30/21  ->  21/9   ->  9/3  ->  3/0
 9  1       3  2       0 3      - -
 */
@@ -33,14 +33,14 @@ void main(){
 	
 	do{
 
-	divisao = n1 / n2;
-	printf("resultado da divis�o: %d / %d : %d\n", n1, n2, divisao);
+		divisao = n1 / n2;
+		printf("resultado da divis�o: %d / %d : %d\n", n1, n2, divisao);
 		
-	resto = n1 % n2;
-	printf("Resto da divis�o: %d\n\n", resto);
+		resto = n1 % n2;
+		printf("Resto da divis�o: %d\n\n", resto);
 	
-	n1 = n2;
-	n2 = resto;
+		n1 = n2;
+		n2 = resto;
 		
 	}while(divisao != 0);	
 }

@@ -20,7 +20,6 @@ void main(){
 	//declaração de váriaves
 	int al, n, r, an;
 	
-	
 	 //ler dados
 	 printf("Informe o 1o termo: ");
 	 fflush(stdin);

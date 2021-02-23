@@ -1,12 +1,12 @@
 /*
-8. Escrever uma função que receba dois números inteiros, positivos, e determine o produto dos mesmos,
-utilizando o seguinte método de multiplicação:
+8. Escrever uma funÃ§Ã£o que receba dois nÃºmeros inteiros, positivos, e determine o produto dos mesmos,
+utilizando o seguinte mÃ©todo de multiplicaÃ§Ã£o:
 
-a. Dividir, sucessivamente, o primeiro número por 2 até que se obtenha 1 como quociente.
-b. Paralelamente, dobrar sucessivamente o segundo número.
-c. Somar os números da segunda coluna que tenham um número ímpar na primeira coluna. O
+a. Dividir, sucessivamente, o primeiro nÃºmero por 2 atÃ© que se obtenha 1 como quociente.
+b. Paralelamente, dobrar sucessivamente o segundo nÃºmero.
+c. Somar os nÃºmeros da segunda coluna que tenham um nÃºmero Ã­mpar na primeira coluna. O
 
-total obtido é o produto procurado.
+total obtido Ã© o produto procurado.
 
 Ex.: 9 * 6 = 54        9	6         6 + 48 = 54
 					   4	12
@@ -29,29 +29,28 @@ typedef struct
  	
 //procedimento para receber valores do teclado
 void receberValores(){
-	
-	
+
 	printf("Informe n1: ");
 	scanf("%i", &valor.n1);
 	printf("Informe n2: ");
 	scanf("%i", &valor.n2);
 }
 
-//Função para dividir n1 e dobrar o valor de n2
+//FunÃ§Ã£o para dividir n1 e dobrar o valor de n2
 int produto(){
 	int soma;
 	int x = 0;
 	int aux = valor.n1;
 	int cont = 0;
 	
-//dividir n1 por 2 até resultado for 1
+	//dividir n1 por 2 atÃ© resultado for 1
 	do{
 		x = aux / 2;
 		aux = x;
 		cont++;
 	}while(x != 1);
 		
-//somar o valor de n2 por ele mesmo (cont vezes)
+	//somar o valor de n2 por ele mesmo (cont vezes)
 	int auxN2 = valor.n2; 
 	int y = 0;
 	int i;
@@ -82,7 +81,5 @@ void main(){
 	//Resultado
 	a = produto();
 	printf("Resultado = %i", a);
-	
-	
-}
 
+}

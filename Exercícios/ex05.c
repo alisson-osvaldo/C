@@ -27,26 +27,25 @@ void main(){
 	fflush(stdin);
 	scanf("%f", &expoente);
 	
-	
 	n2 = num;
 	
 	//se o expoente  1 ou 0
 	if(expoente == 1){
 			x = num * expoente;
-			printf("resultado da exponenciação: %d\n\n", x);
+			printf("resultado da exponenciaï¿½ï¿½o: %d\n\n", x);
 		}
 	if(expoente == 0){
-		printf("Resultado é zero\n\n");
+		printf("Resultado ï¿½ zero\n\n");
 	}
 	
 	do{
-		//exponenciação de x por y
+		//exponenciaï¿½ï¿½o de x por y
 		
 		exponenciacao = n2 * num;
 		n2 = exponenciacao;
 		
 		if(expoente < 0){
-		expoenteNegativo = 1 / exponenciacao;
+			expoenteNegativo = 1 / exponenciacao;
 		}
 				
 		i++;
@@ -55,9 +54,9 @@ void main(){
 	}while(i != expoente && iN != expoente );// (-2) calculos que foram feitos fora do (do while)
 	
 		if(expoente > 0){
-		printf("resultado da exponenciação: %.1f\n\n", exponenciacao);
+			printf("resultado da exponenciaï¿½ï¿½o: %.1f\n\n", exponenciacao);
 		}
 		if(expoente < 0){
-		printf("resultado da exponenciação: %.1f\n\n", expoenteNegativo);
+			printf("resultado da exponenciaï¿½ï¿½o: %.1f\n\n", expoenteNegativo);
 		}		
 }

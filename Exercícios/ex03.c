@@ -1,5 +1,5 @@
 /*
-3. Elabore uma função que verifica se um número é perfeito ou não. Número perfeito é um número natural
+3.Elabore uma função que verifica se um número é perfeito ou não. Número perfeito é um número natural
 cuja soma dos seus divisores próprios (excluído o próprio número) coincide com o número.
 
 Número 	   Divisores 	                           Soma dos divisores

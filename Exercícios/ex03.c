@@ -31,7 +31,6 @@ int perfeito(int n){
 	}
 }
 
-
 // algoritmo principal
 void main(){
 	setlocale(LC_ALL, "Portuguese");			// ajuste para o idioma português

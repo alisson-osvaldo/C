@@ -35,6 +35,5 @@ void main(){
 	 
 	 //chamar função result
 	 an = pa(al, n, r);
-	 printf("N-ésimo termo da PA: %i\n", an);
-	 	 
+	 printf("N-ésimo termo da PA: %i\n", an); 	 
 }

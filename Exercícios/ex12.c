@@ -1,6 +1,6 @@
 /*
-12. Elabore uma função que apresente um menu qualquer na tela. Faça a chamada desta função no algoritmo
-principal.
+12.Elabore uma função que apresente um menu qualquer na tela. Faça a chamada desta função no algoritmo
+principal. 
 */
 
 #include <stdio.h>

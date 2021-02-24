@@ -1,5 +1,5 @@
 /*
-13. Elabore uma função que apresente uma mensagem na tela, leia um inteiro do teclado e o retorne somente
+10. Elabore uma função que apresente uma mensagem na tela, leia um inteiro do teclado e o retorne somente
 se este valor for positivo.
 */
 

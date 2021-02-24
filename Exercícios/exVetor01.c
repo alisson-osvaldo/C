@@ -8,7 +8,7 @@ apresente na tela os valores que são iguais ou superiores à média.
 #include <stdlib.h>
 #include <locale.h>
 //definição de constantes
-#define TAM 5
+#define TAM 15
 
 //Algoritmo principal
 void main(){

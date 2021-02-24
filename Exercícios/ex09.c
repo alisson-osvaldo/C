@@ -1,5 +1,5 @@
 /*
-11.Elabore um algoritmo que cadastre 1000 palavras em inglês e sua tradução em português. Em seguida, leia
+09.Elabore um algoritmo que cadastre 1000 palavras em inglês e sua tradução em português. Em seguida, leia
 do teclado uma letra (I ou P) e uma palavra a ser traduzida e apresente na tela a sua tradução. Desta
 forma, podem ser efetuadas traduções do inglês para o português (se for informada a letra I) ou do
 português para o inglês (se for informada a letra P). Repetir este processamento até que seja informada

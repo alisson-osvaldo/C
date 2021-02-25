@@ -10,7 +10,7 @@ Ex.: notas: 7.5, 9.2 pesos: 6, 4 média ponderada: (7.5 * 6 + 9.2 * 4) / (6 + 4)
 #include <locale.h>
 #include <math.h>
 
-#define TAM 2
+#define TAM 5
 
 //variavel global
 int vet2[TAM];	

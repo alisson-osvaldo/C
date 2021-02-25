@@ -8,7 +8,7 @@ que o número n aparece no vetor.
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#define TAM 5
+#define TAM 10
 
 //Algoritmo principal
 void main(){

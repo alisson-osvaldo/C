@@ -140,8 +140,7 @@ int n_matricula(int i, int k, int auxK, int posicao, int ativador6){ //auxK = po
 		return num;
 		}
 	}
-	
-	
+		
 }
 
 //16.Procedimento para listar todos os alunos matriculados
@@ -192,7 +191,6 @@ void main(){
 	int auxK = 0;
 	int verificar;
 	int ativador6 = 0;
-
 	
 	do{	
 		//chamar menu;
@@ -393,8 +391,6 @@ void main(){
 			case 17:
 			break;
 		}
-		
-			
 		
 	}while(op != 17);
 	//chamar função para (S/N) repetir processo;

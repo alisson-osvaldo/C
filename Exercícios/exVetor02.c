@@ -7,7 +7,7 @@ a diferença entre cada nota e a média.
 #include <stdlib.h>
 #include <locale.h>
 
-#define TAM 5
+#define TAM 15
 
 //Procedimento para ler e armazenar na memória vetor
 void lerVetor(int *vet, int tam){

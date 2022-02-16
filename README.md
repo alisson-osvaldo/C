@@ -1,2 +1,2 @@
 # C
- Exercícios e projetos em C
+ Exercícios de lógica em C
